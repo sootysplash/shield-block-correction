@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "shield-block-correction",
+	"version": "${version}",
+	"name": "Shield Block Correction",
+	"description": "Removes the shield dipping and makes the shield only block when you are blocking (using the shield for 5 ticks)",
+	"authors": [
+		"Sootysplash!"
+	],
+	"license": "Apache-2.0",
+	"icon": "assets/template-mod/icon.png",
+	"environment": "*",
+	"mixins": [
+		"sbc-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.7",
+		"minecraft": "~1.21.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
